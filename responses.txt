@@ -1,0 +1,31 @@
+Daily check-in claimed:
+{
+    "retcode": 0,
+    "message": "OK",
+    "data": {
+        "code": "ok",
+        "first_bind": false,
+        "gt_result": {
+            "risk_code": 0,
+            "gt": "",
+            "challenge": "",
+            "success": 0,
+            "is_risk": false
+        }
+    }
+}
+
+
+Daily check-in already claimed:
+{
+    "data": null,
+    "message": "Traveler, you've already checked in today~",
+    "retcode": -5003
+}
+
+Not logged in(No cookies):
+{
+    "data": null,
+    "message": "Not logged in",
+    "retcode": -100
+}
